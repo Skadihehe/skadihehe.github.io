@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | relative_url }}">
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <ul>
+              <li class="fork"><a>Some</a></li>
+              <li class="downloads"><a>thing</a></li>
+          </ul>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>bleh</h1>
+          <p>meh</p>
+          <hr>
+          <span class="credits left">meow</a></span>
+          <span class="credits right">mewo</a></span>
+        </div>
+
+        {{ content }}
+
+      </section>
+
+    </div>
+  </body>
+</html>
